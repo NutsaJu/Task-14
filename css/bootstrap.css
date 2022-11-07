@@ -4210,8 +4210,6 @@ textarea.form-control-lg {
   word-wrap: break-word;
   background-color: var(--bs-card-bg);
   background-clip: border-box;
-  border: var(--bs-card-border-width) solid var(--bs-card-border-color);
-  border-radius: var(--bs-card-border-radius);
 }
 .card > hr {
   margin-right: 0;
@@ -8140,10 +8138,10 @@ textarea.form-control-lg {
   color: rgba(var(--bs-body-color-rgb), var(--bs-text-opacity)) !important;
 }
 
-.text-muted {
+/* .text-muted {
   --bs-text-opacity: 1;
   color: #6c757d !important;
-}
+} */
 
 .text-black-50 {
   --bs-text-opacity: 1;

@@ -65,4 +65,55 @@ a:hover{
         text-align: center;
     }
 }
-
+/* card section */
+.cards-section{
+    margin-top: 98px;
+}
+.card-box-title{
+    font-family: 'Raleway';
+    font-weight: 600;
+    font-size: 16px;
+    color: #8D8D8D;
+}
+.card-box-subtitle{
+    font-family: 'Raleway';
+    font-weight: 600;
+    font-size: 26px;
+    color: #1A1A1B;
+}
+.card-box-subtitle::after{
+    content: url(../images/Shape\ 1.svg);
+    display: inline-block;
+    padding-bottom: 7px;
+}
+.card-box-text{
+    font-family: 'Raleway';
+    font-weight: 500;
+    font-size: 16px;
+    color: #8D8D8D;
+    line-height: 20px;
+}
+.card-block-title{
+    font-family: 'Raleway';
+    font-weight: 600;
+    font-size: 18px;
+    color: #1A1A1B;
+}
+.card-block-text{
+    font-family: 'Raleway';
+    font-weight: 500;
+    font-size: 16px;
+    color: #8D8D8D;
+    line-height: 18px;
+}
+@media (max-width:992px) {
+    .card-section-container{
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .card-container{
+        width: 100%;
+        justify-content: center !important;
+        margin-left: 0px !important;
+    }
+}
