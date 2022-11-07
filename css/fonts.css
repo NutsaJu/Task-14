@@ -36,20 +36,6 @@
     font-style: normal;
     font-display: swap;
 }
-
-@font-face {
-    font-family: '../fonts/Arial Narrow';
-    src: url('../fonts/ArialNarrow.eot');
-    src: url('../fonts/ArialNarrow.eot?#iefix') format('embedded-opentype'),
-        url('../fonts/ArialNarrow.woff2') format('woff2'),
-        url('../fonts/ArialNarrow.woff') format('woff'),
-        url('../fonts/ArialNarrow.ttf') format('truetype'),
-        url('../fonts/ArialNarrow.svg#ArialNarrow') format('svg');
-    font-weight: normal;
-    font-style: normal;
-    font-display: swap;
-}
-
 @font-face {
     font-family: 'Lato';
     src: url('../fonts/Lato-Bold.eot');
@@ -72,6 +58,18 @@
         url('../fonts/Raleway-Bold.ttf') format('truetype'),
         url('../fonts/Raleway-Bold.svg#Raleway-Bold') format('svg');
     font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+@font-face {
+    font-family: 'Arial';
+    src: url('../fonts/Arial.eot');
+    src: url('../fonts/Arial.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/Arial.woff2') format('woff2'),
+        url('../fonts/Arial.woff') format('woff'),
+        url('../fonts/Arial.ttf') format('truetype'),
+        url('../fonts/Arial.svg#Arial') format('svg');
+    font-weight: normal;
     font-style: normal;
     font-display: swap;
 }
