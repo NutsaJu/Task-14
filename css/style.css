@@ -275,7 +275,7 @@ a:hover{
 .subscribe-bg{
     background-image: url(../images/bg.jpg);
     background-size: cover;
-    background-position: center;
+    background-position: top center;
     height: 44vh;
 }
 .subscribe-title{
