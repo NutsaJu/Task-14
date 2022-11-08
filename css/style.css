@@ -253,6 +253,12 @@ a:hover{
     .offer-box-carousel{
         justify-content: space-around;
     }
+    .carousel-control-prev{
+        display: none;
+    }
+    .carousel-control-next{
+        display: none;
+    }
 }
 @media (max-width:768px) {
     .slider-for-desktop{
@@ -339,4 +345,89 @@ a:hover{
     }
 
 }
-/*  */
+/* user section */
+.user-bg{
+    background-image: url(../images/happy-travelers-bg.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 165vh;
+}
+.user-container{
+    margin-top: 67px;
+}
+.user-title{
+    font-family:'Raleway' ;
+    font-weight: 600;
+    font-size: 16px;
+    color: #8D8D8D;
+}
+.user-subtitle{
+    font-family:'Raleway' ;
+    font-weight: 600;
+    font-size:26px;
+    color: #1A1A1B;
+}
+.user-card-wrapper{
+    margin-top: 82px;
+}
+.user-card{
+    max-width: 368px;
+    width: 100%;
+    height: 409px;
+    background-color: #F4F4F4;
+}
+.user-card img{
+    width: max-content;
+}
+.user-card-title{
+    font-family: 'Raleway';
+    font-weight: 600;
+    font-size: 18px;
+    color: #4B54FA;
+}
+.user-card-text{
+    font-family: 'Raleway';
+    font-weight: 500;
+    font-size: 16px;
+    color: #1A1A1B;
+    padding-inline:41px ;
+}
+.collapse-for-responsive{
+    display: none;
+}
+@media (max-width:1200px){
+    .user-card{
+        height: max-content;
+        margin-top: 10px;
+    }
+    .user-card-desktop{
+        display: none !important;
+    }
+    .collapse-for-responsive{
+        display: block;
+        margin-top: 25px;
+    }
+}
+.trip-planner-box span{
+    font-family: 'Raleway';
+    font-weight: 500;
+    font-size: 36px;
+    color: #FEFEFF;
+}
+.trip-planner-box button{
+    width: 170px;
+    height: 50px;
+    border-radius: 25px;
+    background-image: linear-gradient(to right,#08AEEA,#2AF598);
+    border: none;
+    font-family: 'Raleway';
+    font-weight: 600;
+    font-size: 16px;
+    color: #FEFEFF;
+}
+.trip-planner-box button:hover{
+    color: #FEFEFF;
+    background-image: none;
+    border: 2px solid #FEFEFF;
+    background-color: inherit;
+}
