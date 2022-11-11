@@ -56,15 +56,6 @@ a:hover{
     font-size: 18px;
     color: #ffffff;
 }
-@media (max-width:768px) {
-    .main-title{
-        font-size: 50px;
-        text-align: center;
-    }
-    .main-text{
-        text-align: center;
-    }
-}
 /* card section */
 .cards-section{
     margin-top: 98px;
@@ -105,17 +96,6 @@ a:hover{
     font-size: 16px;
     color: #8D8D8D;
     line-height: 18px;
-}
-@media (max-width:992px) {
-    .card-section-container{
-        flex-wrap: wrap;
-        justify-content: center;
-    }
-    .card-container{
-        width: 100%;
-        justify-content: center !important;
-        margin-left: 0px !important;
-    }
 }
 /* video section */
 .video-bg{
@@ -167,17 +147,6 @@ a:hover{
     font-weight: 600;
     font-size: 16px;
     color: #1A1A1B;
-}
-@media (max-width:768px) {
-    .icons-container{
-        padding: 0px 50px;
-    }
-    .icon-card{
-        margin-top: 25px;
-    }
-    .icon-card:nth-child(1){
-        margin-top: 0px;
-    }
 }
 /* offer section */
 .offer-section{
@@ -243,34 +212,6 @@ a:hover{
 .slider-for-mobile{
     display: none;
 }
-@media (max-width:992px) {
-    .slider-for-desktop{
-        display: none;
-    }
-    .slider-for-tablet{
-        display: block;
-    }
-    .offer-box-carousel{
-        justify-content: space-around;
-    }
-    .carousel-control-prev{
-        display: none;
-    }
-    .carousel-control-next{
-        display: none;
-    }
-}
-@media (max-width:768px) {
-    .slider-for-desktop{
-        display: none;
-    }
-    .slider-for-tablet{
-        display: none;
-    }
-    .slider-for-mobile{
-        display: block;
-    }
-}
 .carousel-inner{
     height: 424px !important;
 }
@@ -332,19 +273,6 @@ a:hover{
     background-color: white;
     color:#08AEEA;;
 }
-@media (max-width:602px) {
-    .subscribe-form{
-        padding-inline: 25px;
-    }
-    .btn-wrapper{
-        margin-top: 20px;
-        margin-left: 0px;
-    }
-    .subscribe-bg{
-        background-position: 40%;
-    }
-
-}
 /* user section */
 .user-bg{
     background-image: url(../images/happy-travelers-bg.jpg);
@@ -395,24 +323,6 @@ a:hover{
 }
 .collapse-for-responsive{
     display: none;
-}
-@media (max-width:1200px){
-    .user-card{
-        height: max-content;
-        margin-top: 10px;
-    }
-    .user-card-desktop{
-        display: none !important;
-    }
-    .collapse-for-responsive{
-        display: block;
-        margin-top: 25px;
-    }
-}
-@media (max-width:768px) {
-    .user-card-wrapper{
-        margin-top: 20px;
-    }
 }
 .trip-planner-box span{
     font-family: 'Raleway';
@@ -503,34 +413,9 @@ a:hover{
     background-image: none;
     background-color: inherit;
 }
-@media (max-width:1200px) {
-    .destination-card-wrapper{
-        margin-inline: 160px;
-    }
-    .destination-card{
-        margin-top: 20px;
-    }
-}
-@media (max-width:992px) {
-    .destination-card-wrapper{
-        margin-inline: 67px;
-    }
-}
-@media(max-width:768px){
-    .destination-card-wrapper{
-        margin-inline: 0px ;
-        justify-content: center !important;
-    }
-
-}
 /* map section */
 .map-container{
     height: 435px;
-}
-@media (max-width:768px){
-    .map-container{
-        padding-inline: 20px;
-    }
 }
 /* footer */
 .footer-list-box span{
@@ -553,7 +438,102 @@ a:hover{
 .footer-list-box li:hover{
     color: #4B54FA;
 }
+.line-between{
+    height: 1px;
+    background-color: #DCDBDB;
+}
+.footer-box{
+    font-family: 'Raleway';
+    font-weight: 500;
+    font-size: 20px;
+    color: #DCDBDB;
+}
+
+/* responsive */
+@media (max-width:1200px){
+    .user-card{
+        height: max-content;
+        margin-top: 10px;
+    }
+    .user-card-desktop{
+        display: none !important;
+    }
+    .collapse-for-responsive{
+        display: block;
+        margin-top: 25px;
+    }
+    .destination-card-wrapper{
+        margin-inline: 160px;
+    }
+    .destination-card{
+        margin-top: 20px;
+    }
+}
+@media (max-width:992px) {
+    .card-section-container{
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .card-container{
+        width: 100%;
+        justify-content: center !important;
+        margin-left: 0px !important;
+    }
+    .slider-for-desktop{
+        display: none;
+    }
+    .slider-for-tablet{
+        display: block;
+    }
+    .offer-box-carousel{
+        justify-content: space-around;
+    }
+    .carousel-control-prev{
+        display: none;
+    }
+    .carousel-control-next{
+        display: none;
+    }
+    .destination-card-wrapper{
+        margin-inline: 67px;
+    }
+}
 @media (max-width:768px) {
+    .main-title{
+        font-size: 50px;
+        text-align: center;
+    }
+    .main-text{
+        text-align: center;
+    }
+    .icons-container{
+        padding: 0px 50px;
+    }
+    .icon-card{
+        margin-top: 25px;
+    }
+    .icon-card:nth-child(1){
+        margin-top: 0px;
+    }
+    .slider-for-desktop{
+        display: none;
+    }
+    .slider-for-tablet{
+        display: none;
+    }
+    .slider-for-mobile{
+        display: block;
+    }
+    .user-card-wrapper{
+        margin-top: 20px;
+    }
+    .destination-card-wrapper{
+        margin-inline: 0px ;
+        justify-content: center !important;
+    }
+    .map-container{
+        padding-inline: 20px;
+    }
     .footer-list-container{
         display: none !important;
     }
@@ -564,6 +544,19 @@ a:hover{
         flex-wrap: wrap;
     }
 }
+@media (max-width:602px) {
+    .subscribe-form{
+        padding-inline: 25px;
+    }
+    .btn-wrapper{
+        margin-top: 20px;
+        margin-left: 0px;
+    }
+    .subscribe-bg{
+        background-position: 40%;
+    }
+
+}
 @media (max-width:460px){
     .footer-list-container-responsive{
         flex-direction: column;
@@ -572,14 +565,4 @@ a:hover{
     .footer-list-box{
         margin-bottom: 20px;
     }
-}
-.line-between{
-    height: 1px;
-    background-color: #DCDBDB;
-}
-.footer-box{
-    font-family: 'Raleway';
-    font-weight: 500;
-    font-size: 20px;
-    color: #DCDBDB;
 }
